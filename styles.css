@@ -52,3 +52,56 @@ body {
     color: #fff;
     text-decoration: none;
   }
+  .content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .content li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .content li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .content li img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 10px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .spimage {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  .map {
+    text-align: right;
+    transform: translate(350%,10%);
+  }
+  
+  .left-image {
+    float: left;
+    margin-right: 10px;
+  }
